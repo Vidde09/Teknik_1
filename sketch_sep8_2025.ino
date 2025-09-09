@@ -16,7 +16,7 @@ pinMode(buttonPin, INPUT_PULLUP);
 
 void loop() {
 
-  sensor=analogRead(sensorPin); //Ljussensor på A0, värde mellan 0-1023
+  sensor=analogRead(sensorPin); //Ljussensor på A0, värde mellan 0-1024
 
   delay(250);
 
